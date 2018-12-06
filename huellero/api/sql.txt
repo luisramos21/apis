@@ -1,0 +1,3 @@
+SELECT * FROM `Reportes`  WHERE `id`=4
+
+hoola mama

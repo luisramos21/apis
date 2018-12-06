@@ -1,0 +1,84 @@
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+Array
+(
+    [SELECT] =>  purchase_requests.id as No_requisicion , users.username as Usuario, req_date as Fecha_requisicion , purchase_requests.status as Estado,purchase_requests.id as Id 
+    [FROM] => purchase_requests
+    [ORDER BY] =>  purchase_requests.id DESC
+    [INNER JOIN] => Array
+        (
+            [users] => purchase_requests.user_id  = users.id 
+        )
+
+    [WHERE] =>  user_id = '1' AND  purchase_requests.is_delete = 0 
+)
+
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+Array
+(
+    [SELECT] =>  purchase_requests.id as No_requisicion , users.username as Usuario, req_date as Fecha_requisicion , purchase_requests.status as Estado,purchase_requests.id as Id 
+    [FROM] => purchase_requests
+    [ORDER BY] =>  purchase_requests.id DESC
+    [INNER JOIN] => Array
+        (
+            [users] => purchase_requests.user_id  = users.id 
+        )
+
+    [WHERE] =>  user_id = '1' AND  purchase_requests.is_delete = 0 
+)
+
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+0
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
+0
+stdClass Object
+(
+    [id] => 1
+    [user_type_id] => 6
+    [User] => User Session
+)
+
